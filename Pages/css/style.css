@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+
+.menun {
+
+    background-color: orangered;
+}
+.uno {
+
+    border-radius: 8px;
+    color: black;
+    border: 3px orangered outset;
+    background-color: darkgray;
+    opacity: 0.8;
+    
+    text-align: center;
+
+    
+    }
+section {
+
+    background-color: silver;
+   
+}
+.principal {
+
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}   
+
+p {
+   font-size: 20px;
+}
+
+
+.menun ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.menun li {
+    display: inline-block;
+    margin: 0 10px; 
+}
+
+.menun a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.menun a:hover {
+    color: #0056b3;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px; 
+    width: 100%;
+    
+
+  }
+  .contenido{
+    margin-left: 20px; 
+    margin-right: 20px; 
+
+  }
+  .imagen-circular {
+    width:250px; 
+    height: 250px; 
+    overflow: hidden;
+    border-radius: 50%; 
+
+}
+.imagen-circular img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    
+}
+
+footer {
+    background-color: rgb(156, 151, 151);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    width: 20px; 
+    height: 20px; 
+    overflow: hidden;
+    margin-right: 20px;
+    
+}
+
+.logo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-container {
+    margin-left: 20px; 
+    
+}
+
+.text-container p {
+    font-size: 16px;
+    margin: 0;
+    margin-left: 1000px;
+}
